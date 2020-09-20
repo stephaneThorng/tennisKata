@@ -1,3 +1,5 @@
+package core;
+
 import java.util.stream.IntStream;
 import org.junit.Assert;
 import org.junit.Test;

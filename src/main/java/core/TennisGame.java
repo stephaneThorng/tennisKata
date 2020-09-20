@@ -1,3 +1,5 @@
+package core;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -58,8 +60,8 @@ public class TennisGame {
    */
   public void addPoint(PlayerNumber playerNumber) {
 
-    final Player currentPlayer = players.get(playerNumber.index);
-    final Player otherPlayer = players.get(Math.abs(playerNumber.index - 1));
+    final Player currentPlayer = players.get(playerNumber.getIndex());
+    final Player otherPlayer = players.get(Math.abs(playerNumber.getIndex() - 1));
 
     if (getWinnerPlayer().isPresent()) {
       throw new IllegalStateException("The score was already set.");

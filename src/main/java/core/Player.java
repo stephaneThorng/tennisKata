@@ -1,3 +1,5 @@
+package core;
+
 public class Player {
 
   private String name;
@@ -23,5 +25,5 @@ public class Player {
   public void setScore(Score score) {
     this.score = score;
   }
-  
+
 }

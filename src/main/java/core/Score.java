@@ -1,3 +1,5 @@
+package core;
+
 public enum Score {
   LOVE("Love"), FIFTEEN("Fifteen"), THIRTY("Thirty"), FORTY("Forty"), ADVANTAGE("40A"), SET("X");
 
